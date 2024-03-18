@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background: #f4f4fc;
+}
+
+/* Logo */
+
+.logo{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 120px;
+height: 48px;
+left: 40px;
+top: 40px;
+}
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    color: #0A3871;
+}
+
+.cajaTexto{
+position: absolute;
+width: 900px;
+height: 400px;
+left: 240px;
+top: 168px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+background-color: #f4f4fc;
+cursor: pointer;
+text-align: center;
+border: none;
+
+}
+
+.cajaTexto::placeholder{
+    color: #0A3871;
+}
+
+/* Mensaje solo minusculas Formato*/
+.minusculas{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 350px;
+height: 16px;
+left: 13%;
+top: 73%;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 150%;
+color: #495057;
+
+opacity: 0.8;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+ 
+}
+/* Botón encriptar Formato*/
+.btn-encriptar{
+display: flex;
+flex-direction: column;
+place-content: center;
+position: absolute;
+top: 80%;
+right: 70%;
+align-items: center;
+
+gap: 8px;
+
+width: 328px;
+height: 67px;
+padding: 24px;
+
+background: #0A3871;
+border-radius: 24px;
+
+font-size: 18px;
+font-weight: bold;
+color: white;
+
+transition: 1s all;
+cursor: pointer;
+
+}
+/* Botón desencriptar Formato*/
+.btn-desencriptar{
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    position: absolute;
+    top: 80%;
+    right: 45%;
+    align-items: center;
+    
+    gap: 8px;    
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    
+    background: gray;
+    border-radius: 24px;
+    
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    
+    transition: 1s all;
+    cursor: pointer;
+    
+    }
+
+
+.segunda{
+    position: absolute;
+    width: 450px;
+    height: 400px;
+    right:  170px;
+    top: 165px;
+    display: block;
+    height: 400px;
+    padding-right: 20px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+/* Munieco Formato*/
+.munieco{
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+/* Ningun mensaje Formato*/
+.contenedor-parrafo h3{
+    font-size: 24px;
+    font-weight: 700px;
+    font-family: 'Inter', sans-serif ;
+    text-align: center;
+    color: #343A40;
+    padding-top: 300PX;
+
+}
+/* Ingresa Texto Formato*/
+.contenedor-parrafo P{
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: 'Inter', sans-serif ;
+    text-align: center;
+    color: #495057;
+}
+
+
+/* Botón desencriptar Formato*/
+.btn-copiar{
+    
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background: gray;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    bottom: -185px;
+    left: 10px; 
+    
+}
+
+.ocultar{
+    display: none;
+}
+
+.nuevoFormato{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+    font-family: 'Inter', sans-serif ;
+    color: #343A40;
+    padding-top: 180PX;
+}
+
+
+
+
+
+
+
+
+
+
+
